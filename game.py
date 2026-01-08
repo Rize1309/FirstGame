@@ -118,10 +118,10 @@ while running:
         if rectc_x <= 0:
             direction_x = 1
         if rect2_x <= rectc_x and rectc_x <= rect2_x + 200 and rectc_y >= rect2_y:
-            direction_x = 1 
+            direction_x *= 1 
             direction_y = -1  
         if rect1_x <= rectc_x and rectc_x <= rect1_x + 200 and rectc_y <=  rect1_y + 20:
-            direction_x = -1 
+            direction_x *= 1 
             direction_y = 1  
         if rectc_y >= 1012:
             score1 += 1
